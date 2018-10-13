@@ -10,6 +10,8 @@ var util = require('util');
 // Setup Restify Server
 var server = restify.createServer();
 
+
+
 server.listen(process.env.port || process.env.PORT || 3978, function () {
    console.log('%s listening to %s', server.name, server.url); 
    console.log('server', process.env.msSqlServer); 
@@ -262,3 +264,4 @@ function sendProactiveMessage(address,text) {
         bot.send(msg);
     }
 }
+
