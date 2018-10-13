@@ -1,0 +1,25 @@
+{
+  "name": "CSISRBBOT",
+  "version": "1.0.0",
+  "description": "CSI SRB BOT",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "8.9.3"
+  },
+  "dependencies": {
+    "botbuilder": "^3.14.1",
+    "botbuilder-azure": "^3.1.0",
+    "dotenv": "^5.0.1",
+    "fs": "0.0.1-security",
+    "grabzit": "*",
+    "mssql": "^4.2.1",
+    "pdfcrowd": "^4.3.3",
+    "restify": "^7.0.0",
+    "util": "^0.10.3"
+  }
+}
