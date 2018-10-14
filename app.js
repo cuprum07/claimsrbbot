@@ -72,7 +72,7 @@ var bot = new builder.UniversalBot(connector, [
 
             if  (result.length>0) {
                 for (let item of result) {
-                    session.send('№'+item.num+': \n '+item.sbj+'/'+item.s_sbj+' \n '+item.opis)
+                    session.send('№ '+item.num+': \n Тема: '+item.sbj+' \n Подтема: '+item.s_sbj+' \n Описание: '+item.opis)
                 }
             }
             else {
